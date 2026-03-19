@@ -33,4 +33,26 @@ section {
 ul {
     list-style-type: square;
     color: #2980b9; /* Nice blue for the bullets */
+}.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.project-card h3 {
+    color: #2980b9;
+    margin-top: 0;
+}
+
+.project-card img {
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 20px;
 }
